@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffb95713b3eeb3146bc9ef7ae231ef27, type: 3}
+  m_Name: Field config 1
+  m_EditorClassIdentifier: 
+  _fieldWidth: 14
+  _fieldHeight: 10
+  _bombDelay: 4
+  _walkerTypes:
+  - _type: 0
+    _speed: 1.5
+  - _type: 2
+    _speed: 0.7
+  - _type: 1
+    _speed: 1.5
+  _walkerSpawns:
+  - _type: 2
+    _startIndex: 63
+  - _type: 1
+    _startIndex: 139
+  - _type: 1
+    _startIndex: 126
+  - _type: 1
+    _startIndex: 13
+  - _type: 1
+    _startIndex: 0
+  - _type: 0
+    _startIndex: 45
+  - _type: 0
+    _startIndex: 52
+  - _type: 0
+    _startIndex: 101
+  - _type: 0
+    _startIndex: 108
+  _walls:
+  - _type: 1
+    _index: 15
+  - _type: 1
+    _index: 17
+  - _type: 1
+    _index: 19
+  - _type: 1
+    _index: 21
+  - _type: 1
+    _index: 23
+  - _type: 1
+    _index: 25
+  - _type: 2
+    _index: 113
+  - _type: 2
+    _index: 115
+  - _type: 2
+    _index: 117
+  - _type: 2
+    _index: 119
+  - _type: 2
+    _index: 121
+  - _type: 2
+    _index: 123
+  - _type: 1
+    _index: 44
+  - _type: 1
+    _index: 46
+  - _type: 1
+    _index: 48
+  - _type: 1
+    _index: 50
+  - _type: 1
+    _index: 52
+  - _type: 1
+    _index: 54
